@@ -53,22 +53,6 @@ Un checkpoint de modèle compatible LTX-2.3 (par défaut :
 
 ---
 
-## Installation
-
-Le paquet n'est pas encore publié sur PyPI. Clonez le dépôt et installez-le en
-mode éditable :
-
-```bash
-git clone <url-de-votre-repo> ltx2_3
-cd ltx2_3
-pip install -e .
-```
-
-Si vous n'avez pas encore de `pyproject.toml`, le minimal indiqué en bas de ce
-fichier suffit.
-
----
-
 ## Démarrage rapide
 
 ```python
@@ -312,11 +296,3 @@ Les issues et les pull requests sont les bienvenues. Avant d'ouvrir une PR :
 2. Lancez `python -m pyflakes ltx2_3` et nettoyez les nouveaux avertissements.
 3. Lancez `python -c "import ltx2_3; print(ltx2_3.__version__)"` pour confirmer
    que le paquet s'importe toujours correctement.
-
----
-
-## Licence
-
-Apache-2.0 (sous réserve de confirmation par le propriétaire du dépôt). Les
-poids du modèle LTX-2.3 sont régis par leur propre licence — veuillez vous
-référer au dépôt du modèle sur HuggingFace pour les conditions exactes.
